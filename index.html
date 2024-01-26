@@ -6,72 +6,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/img/Logo Uniforme PNG - Invertido.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Peças Coração</title>
 </head>
 
 <body>
-    <div class="tudo">
-        <header>
-            <img src="./assets/img/LOGO AUTO PEÇAS CORAÇÂO.png" alt="Logo empresa" width="300px" height="300px">
-            <h1>Peças Coração Auto-Peças e mecânica Reis LTDA</h1>
-        </header>
-    
-        <main>
-            <nav class="nav_empresa">
-                <a href="#">Dados da Empresa</a>
-                <a href="#">Dados dos Sócios</a>
-                <a href="#">Mini-Planta (layout da empresa)</a>
-                <a href="#">Estimativa de orçamento</a>
-                <a href="#">Despesas</a>
-                <a href="#">Dados do Contador</a>
-            </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/LOGO AUTO PEÇAS CORAÇÂO.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+                Peças Coração
+              </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown link
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-            <section class="funcao_empresa">
-                <h2>Funcão Empresa</h2>
-                <p>Analisar a condição do veículo e em seguida dirigir para a manutenção se for necessário. Setores:
-                    Atendimento, mecânica, vendas e Marketing.</p>
-            </section>
 
-            <section class="dados_empresa">
-                <h2>Dados Empresa</h2>
-                <table border="2px">
-                    <tr>
-                        <td>Ramo de Atividade</td>
-                        <td>Auto Peças Mecânica</td>
-                    </tr>
-                    <tr>
-                        <td>Razão Social</td>
-                        <td>Auto Peças e mecânica Reis Ltda</td>
-                    </tr>
-                    <tr>
-                        <td>Endereço</td>
-                        <td>IFMT – Campus Cuiabá, Rua Professora Zulmira Canavarros 95, Cuiabá/MT</td>
-                    </tr>
-                    <tr>
-                        <td>CNPJ:</td>
-                        <td>98.241.341/0001-70</td>
-                    </tr>
-                    <tr>
-                        <td>Contador</td>
-                        <td>Andrade & Pereira Contabilidade e Assessoria</td>
-                    </tr>
-                    <tr>
-                        <td>Horário de Funcionamento:</td>
-                        <td>07h às 19h (de Seg a Sex) 08h às 17h (Final de semana e feriados)</td>
-                    </tr>
-                    <tr>
-                        <td>Contato</td>
-                        <td>(65) 3622-0853</td>
-                    </tr>
-                    <tr>
-                        <td>WhatsApp:</td>
-                        <td>(65) 9670-9780</td>
-                    </tr>
-                </table>
-            </section>
-        </main>
-    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
