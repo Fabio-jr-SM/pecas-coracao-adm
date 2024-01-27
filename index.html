@@ -5,20 +5,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Google fonts Lato-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
     <link rel="shortcut icon" href="./assets/img/Logo Uniforme PNG - Invertido.png" type="image/x-icon">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
     <title>Peças Coração</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+    <!--NavBar-->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="./assets/img/LOGO AUTO PEÇAS CORAÇÂO.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+                <img src="./assets/img/LOGO AUTO PEÇAS CORAÇÂO.png" alt="Logo" width="40" height="40"
+                    class="d-inline-block align-text-top">
                 Peças Coração
-              </a>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -26,29 +45,130 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#">Login</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="#">Contato</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            Dropdown link
+                            Mais
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">Mais</a></li>
+                            <li><a class="dropdown-item" href="#">Redes Sociais</a></li>
+                            <li><a class="dropdown-item" href="#">Trabalhe conosco</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
+    <!--Slider-->
+    <div class="container" id="slider-container">
+        <div class="carousel slide" id="slider" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" class="active" data-bs-target="#slider" data-bs-slide-to="0" aria-current="true"
+                    aria-label="Slide 1">
+                </button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2">
+                </button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3">
+                </button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/mecanica-1.webp" alt="banner-1" class="d-block w-100" style="height: 40em">
+                    <div class="carousel-caption">
+                        <h5>Mecanicas Em todo o Brasil</h5>
+                        <a href="#" class="btn btn-dark">Ver Mais</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./assets/img/mecanica-1.jpg" alt="banner-2" class="d-block w-100" style="height: 40em">
+                    <div class="carousel-caption">
+                        <h5>Equipamentos de qualidade</h5>
+                        <a href="#" class="btn btn-dark">Ver Mais</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./assets/img/mecanica-3.jpg" alt="banner-3" class="d-block w-100" style="height: 40em">
+                    <div class="carousel-caption">
+                        <h5>Serviço 24h</h5>
+                        <a href="#" class="btn btn-dark">Ver Mais</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+                <i class="bi bi-chevron-compact-left"></i>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+                <i class="bi bi-chevron-compact-right"></i>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+    </div>
+
+    <!--INFO-->
+    <div class="container" id="info-container">
+        <div class="col-12">
+            <h2 class="title primary-color">Detalhes Importantes</h2>
+            <p class="subtitle secondary-color">
+                Saiba mais sobre a experiência da nossa incrível equipe
+            </p>
+        </div>
+        <div class="col-12">
+            <div class="row">
+                <div class="col-12 col-md-5" id="info-banner">
+                    <img src="./assets/img/mecanica-1.jpg" alt="Informações" class="img-fluid" />
+                </div>
+                <div class="col-12 col-md-7 bg-secondary-color" id="info-content">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="title">Estes dados fazem a diferença:</h2>
+                            <p class="subtitle secondary-color">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Praesentium tempore fugit et iusto quisquam beatae impedit
+                                nobis quas doloribus, atque, ut id similique eligendi, ab
+                                soluta magnam maxime cum debitis.
+                            </p>
+                        </div>
+
+                        <div class="col-12" id="info-numbers">
+                            <div class="row">
+                                <div class="col-4">
+                                    <h3 class="primary-color">200</h3>
+                                    <p class="secondary-color">Empresas Fieis</p>
+                                </div>
+                                <div class="col-4">
+                                    <h3 class="primary-color">12.222</h3>
+                                    <p class="secondary-color">Projetos Complexos</p>
+                                </div>
+                                <div class="col-4">
+                                    <h3 class="primary-color">10.122.639</h3>
+                                    <p class="secondary-color">Clientes Satisfeitos</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <a class="btn btn-dark">Saber Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

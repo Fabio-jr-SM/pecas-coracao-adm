@@ -1,0 +1,114 @@
+*{
+    font-family: 'Lato', 'sans-serif';
+}
+
+nav{
+    font-size: 1.1em;
+}
+#navbar{
+    border-bottom: 1px solid #7a7a7a;
+}
+
+#navbar a.active{
+    border-bottom: 1px solid #050505;
+
+}
+
+#navbar{
+    border-bottom: 1px solid #7a7a7a;
+}
+
+#navbar a.active{
+    border-bottom: 1px solid #050505;
+
+}
+
+#navbarNavDropdown .navbar-nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+#slider{
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+#slider .carousel-caption{
+    bottom: 3em;
+}
+
+#slider .carousel-caption h5 {
+    font-size: 2.5em;
+    text-shadow: #000 2px 2px;
+}
+
+.btn{
+    border-radius: 0;
+}
+
+#slider .btn{
+    padding: 0.3 0.8em;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i{
+    color: #111;
+    font-size: 3em;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #222;
+    opacity: 0.8;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #000;
+  }
+
+  @media(min-width: 768px){
+    #slider .carousel-caption{
+        bottom: 15em;
+    }
+
+    #slider .carousel-caption h5 {
+        font-size: 4em;
+        text-shadow: #000 2px 3px;
+    }
+
+    #slider .btn{
+        padding: 0.6 1.6em;
+        font-size: 1.2em;
+    }
+
+    .carousel-indicators{
+        bottom: 7em;
+    }
+  }
+
+  #info-content{
+    margin-bottom: 4em;
+    padding: 4em 1em;
+}
+
+#info-number{
+    margin: 1.5em 0;
+}
+#info-number h3{
+    font-size: 3em;
+}
+
+#info-banner{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5em;
+}
+
+@media(min-width:768px){
+    #info-content{
+        padding: 3.5em;
+    }
+}
