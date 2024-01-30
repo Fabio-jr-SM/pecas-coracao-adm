@@ -43,6 +43,7 @@ nav {
 
 #slider .carousel-caption h5 {
     font-size: 2.5em;
+    color: #fff;
     text-shadow: #000 2px 2px;
 }
 
@@ -78,6 +79,7 @@ nav {
 
     #slider .carousel-caption h5 {
         font-size: 4em;
+        color: #fff;
         text-shadow: #000 2px 3px;
     }
 
@@ -117,8 +119,11 @@ nav {
 }
 
 @media(min-width:768px) {
+    #info-container{
+        background-color: #4e4e4e;
+    }
     #info-content {
-        padding: 3.5em;
+        padding: 1.5em;
     }
 }
 
@@ -228,4 +233,8 @@ nav {
     height:500px;
     width:500px;
     position:absolute;
+  }
+
+  #map{
+    margin-top: 2em;
   }
